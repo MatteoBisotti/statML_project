@@ -6,8 +6,8 @@ def plot_synthetic_points(X, y):
     plt.figure(figsize=(7, 7))
     plt.scatter(X[:, 0], X[:, 1], c=y, s=25)
     plt.title("Synthetic dataset with good clustering")
-    plt.xlabel("x1")
-    plt.ylabel("x2")
+    plt.xlabel("Feature 1")
+    plt.ylabel("Feature 2")
     plt.show()
 
 def plot_kmeans_result(X, labels, centroids, init):
@@ -18,7 +18,7 @@ def plot_kmeans_result(X, labels, centroids, init):
     plt.title("KMeans result ("+init+")")
     plt.show()
 
-def plot_results_kmeans_kmeanspp(
+def results_kmeans_kmeanspp(
         X,
         inertias_kmeans,
         n_iters_kmeans,
