@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 toDo.txt
 data/data/
+code/images/plots.ipynb
